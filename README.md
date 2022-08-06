@@ -2,7 +2,7 @@
 Another DIO's challenge.
 
 
-React components.
+React components study.
 
 
 The application only generate random pokemons, but it helped me to understand the integration of React JS elements
