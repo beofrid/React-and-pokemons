@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Press+Start+2P&display=swap');
+
+* {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+
+ 
+}
+body {
+  margin: 0;
+  background-color: #1d2025;
+}
+header {
+  width: 100%;
+  height: 10vh;
+  background-image: linear-gradient(rgb(78, 2, 78), rgb(53, 1, 53));
+  border-bottom: 3pt solid rgb(40,1,40);
+  margin: 0;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 300px;
+  background-color: purple;
+  border: solid 2pt gray;
+  height: 50px;
+  transition: box-shadow 1000ms, border-radius 1000ms;
+}
+button:hover {
+  border-radius: 10px;
+  box-shadow: 
+  4px 4px 5px gray,
+   4px 4px 5px inset rgb(51, 1, 51),
+    4px -4px 5px black,
+     4px -4px 5px inset rgb(51, 1, 51),
+      -4px 4px 5px  black,
+       -4px 4px 5px inset rgb(51, 1, 51),
+        -4px -4px 5px gray,
+         -4px -4px 5px inset rgb(51, 1, 51);
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 1vmin);
+  color: white;
+  margin: 0 10vw 0 10vw;
+}
+
+
+.field {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  background: #282034;
+  min-width: 350px;
+}
+.img { 
+  background-color: white;
+  margin-bottom: 8px;
+  width: 130px;
+  border-radius: 40%;
+  box-shadow: inset 2px 2px 18px black
+
+}
+h2 {
+  margin-top: -5px;
+ }
+.type {
+  margin-top: -30px;
+}
+
+.master { 
+  margin-top: 2px;
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  border: groove 3pt rgb(42, 42, 42);
+   box-shadow: 
+   4px 4px 5px rgb(107, 107, 107),
+    4px 4px 15px inset black,
+     4px -4px 5px rgb(107, 107, 107),
+      4px -4px 15px inset black,
+       -4px 4px 5px  rgb(107, 107, 107),
+        -4px 4px 15px inset black,
+         -4px -4px 5px rgb(107, 107, 107),
+          -4px -4px 15px inset black;
+  ;
+
+}
+.status {
+  padding-bottom: 15px;
+
+}
+.statusName {
+  margin-left: 5px;
+  background: purple;
+  border: 2.5pt inset gray;
+  width: 160px;
+  min-width: 90px;
+  line-height: 20px;
+
+  /* transform: skew(-8deg); */
+  box-shadow: 
+      inset 3px 3px 5px rgb(80, 9, 9),
+      inset -3px -3px 5px rgb(247, 94, 119),
+      -1px -1px 3px white;
+}
+.statusNumber {
+  border: 1pt solid red;
+  width: 40px;
+    background-image: linear-gradient(0deg, purple, rgb(212, 16, 212), purple);
+    box-shadow: 
+        inset 3px 3px 5px rgb(80, 9, 9),
+        inset -3px -3px 5px rgb(0, 0, 0),
+        -1px -1px 3px white;
+    line-height: 26px;
+    font-size: 6pt;
+    text-align: center;
+}
+
+.lines {
+  /* background-color: blue; */
+  display: flex;
+  justify-content:space-between;
+  width: 228px;
+  list-style-type: none ;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+h2, p { 
+  font-family: 'Concert One', cursive;
+  font-size: calc(15px + 2vmin);
+}
+
+
